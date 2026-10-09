@@ -2,6 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const { exec } = require('child_process');
 const packager = require('@electron/packager');
+const discordrpc1 = require('@xhayper/discord-rpc');
 const appdmg = process.platform == "darwin" ? require('appdmg') : null;
 
 const allPlatforms = ["mac", "win32", "win64", "linux"];
