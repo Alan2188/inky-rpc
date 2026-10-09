@@ -1,3 +1,4 @@
+require('./discord-rpc.js');
 const {app, BrowserWindow, ipcMain, dialog, ipcRenderer, Menu} = require('electron')
 const i18n = require("./i18n/i18n.js")
 const {ProjectWindow} = require("./projectWindow.js");
