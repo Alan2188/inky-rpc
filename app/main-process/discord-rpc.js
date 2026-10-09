@@ -14,7 +14,7 @@ function setActivity() {
         startTimestamp: startTimestamp, // Shows time elapsed since app opened
         largeImageKey: 'logo_large',    // Replace with your asset key if you have one
         largeImageText: 'Inky',
-		smallImageKey: 'snek_small',
+		smallImageKey: 'logo_small',
 		smallImageText: 'Inky by inklestudios',
         instance: false
     }).catch((err) => console.error('Failed to set RPC activity:', err.message));
