@@ -1,3 +1,5 @@
+# THIS FORK ONLY ADDS DISCORD RPC AND THAT IS IT
+
 ![](resources/icon-small.jpg)
 
 # Inky
